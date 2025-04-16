@@ -1,1 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.parent{
+    background-color: green;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.child{
+    background-color: brown;
+    height: 40%;
+    width: 90%;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.child:nth-last-child(2){
+    background-color: yellow;
+}
